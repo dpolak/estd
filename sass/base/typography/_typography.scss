@@ -1,0 +1,48 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@400;700&family=Shadows+Into+Light&family=Roboto+Serif:wght@400;700&display=swap');
+
+// Define font families
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Roboto Condensed', sans-serif;
+$font-decorative: 'Abril Fatface', cursive;
+$font-handwritten: 'Shadows Into Light', cursive;
+$font-serif: 'Roboto Serif', serif;
+
+// Apply font families
+body {
+  font-family: $font-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-secondary;
+}
+
+.decorative {
+  font-family: $font-decorative;
+}
+
+.handwritten {
+  font-family: $font-handwritten;
+}
+
+.serif {
+  font-family: $font-serif;
+}
+
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";
+
+

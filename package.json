@@ -1,0 +1,24 @@
+{
+  "name": "custom-theme",
+  "version": "1.0.0",
+  "description": "Custom WordPress theme using Grunt for SASS compilation, CSS minification, and ES6 JS bundling",
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-browserify": "^6.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "autoprefixer": "^10.4.7",
+    "babelify": "^10.0.0",
+    "sass": "^1.35.1",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5"
+  },
+  "scripts": {
+    "watch": "grunt watch"
+  }
+}
